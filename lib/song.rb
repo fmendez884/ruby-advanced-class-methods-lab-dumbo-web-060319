@@ -46,7 +46,7 @@ class Song
     song = self.new
     song.name = filename.split(/[-.]/)[1]
     song.artist_name = filename.split(/[-.]/)[0]
-    
+    binding.pry 
   end 
   
   def self.create_from_filename(filename)
